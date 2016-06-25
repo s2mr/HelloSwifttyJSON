@@ -14,6 +14,8 @@
 		2078AF561C65C4D700E512EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2078AF541C65C4D700E512EF /* LaunchScreen.storyboard */; };
 		2078AF611C65C4D800E512EF /* HelloSwifttyJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2078AF601C65C4D800E512EF /* HelloSwifttyJSONTests.swift */; };
 		2078AF6C1C65C4D800E512EF /* HelloSwifttyJSONUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2078AF6B1C65C4D800E512EF /* HelloSwifttyJSONUITests.swift */; };
+		2078AF7A1C65E10A00E512EF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2078AF791C65E10A00E512EF /* TableViewController.swift */; };
+		691F3F1575AE296F981596DA /* Pods_HelloSwifttyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 984E2FAD9C0537E8E4AFE0D9 /* Pods_HelloSwifttyJSON.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		028D86A52F2F5125B30F8541 /* Pods-HelloSwifttyJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloSwifttyJSON.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloSwifttyJSON/Pods-HelloSwifttyJSON.release.xcconfig"; sourceTree = "<group>"; };
 		2078AF481C65C4D700E512EF /* HelloSwifttyJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSwifttyJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2078AF4B1C65C4D700E512EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2078AF4D1C65C4D700E512EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		2078AF671C65C4D800E512EF /* HelloSwifttyJSONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloSwifttyJSONUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2078AF6B1C65C4D800E512EF /* HelloSwifttyJSONUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwifttyJSONUITests.swift; sourceTree = "<group>"; };
 		2078AF6D1C65C4D800E512EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2078AF791C65E10A00E512EF /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		25B85DB437CB2F61DA2A52D3 /* Pods-HelloSwifttyJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloSwifttyJSON.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloSwifttyJSON/Pods-HelloSwifttyJSON.debug.xcconfig"; sourceTree = "<group>"; };
+		984E2FAD9C0537E8E4AFE0D9 /* Pods_HelloSwifttyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloSwifttyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				691F3F1575AE296F981596DA /* Pods_HelloSwifttyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +88,8 @@
 				2078AF5F1C65C4D800E512EF /* HelloSwifttyJSONTests */,
 				2078AF6A1C65C4D800E512EF /* HelloSwifttyJSONUITests */,
 				2078AF491C65C4D700E512EF /* Products */,
+				EAA47B99A16C53AC859E2503 /* Pods */,
+				26C811532D890C5C354A6A89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +112,7 @@
 				2078AF521C65C4D700E512EF /* Assets.xcassets */,
 				2078AF541C65C4D700E512EF /* LaunchScreen.storyboard */,
 				2078AF571C65C4D700E512EF /* Info.plist */,
+				2078AF791C65E10A00E512EF /* TableViewController.swift */,
 			);
 			path = HelloSwifttyJSON;
 			sourceTree = "<group>";
@@ -125,6 +135,23 @@
 			path = HelloSwifttyJSONUITests;
 			sourceTree = "<group>";
 		};
+		26C811532D890C5C354A6A89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				984E2FAD9C0537E8E4AFE0D9 /* Pods_HelloSwifttyJSON.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAA47B99A16C53AC859E2503 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25B85DB437CB2F61DA2A52D3 /* Pods-HelloSwifttyJSON.debug.xcconfig */,
+				028D86A52F2F5125B30F8541 /* Pods-HelloSwifttyJSON.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2078AF701C65C4D800E512EF /* Build configuration list for PBXNativeTarget "HelloSwifttyJSON" */;
 			buildPhases = (
+				8D4AC9FD0ADEF4D7D516DA58 /* Check Pods Manifest.lock */,
 				2078AF441C65C4D700E512EF /* Sources */,
 				2078AF451C65C4D700E512EF /* Frameworks */,
 				2078AF461C65C4D700E512EF /* Resources */,
+				1900B45D8A1AD2CB4EF676E3 /* Embed Pods Frameworks */,
+				16305402DDB2A8689EBCB1AD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +284,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16305402DDB2A8689EBCB1AD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloSwifttyJSON/Pods-HelloSwifttyJSON-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1900B45D8A1AD2CB4EF676E3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloSwifttyJSON/Pods-HelloSwifttyJSON-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D4AC9FD0ADEF4D7D516DA58 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2078AF441C65C4D700E512EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2078AF4E1C65C4D700E512EF /* ViewController.swift in Sources */,
+				2078AF7A1C65E10A00E512EF /* TableViewController.swift in Sources */,
 				2078AF4C1C65C4D700E512EF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +479,7 @@
 		};
 		2078AF711C65C4D800E512EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25B85DB437CB2F61DA2A52D3 /* Pods-HelloSwifttyJSON.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HelloSwifttyJSON/Info.plist;
@@ -411,6 +491,7 @@
 		};
 		2078AF721C65C4D800E512EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 028D86A52F2F5125B30F8541 /* Pods-HelloSwifttyJSON.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HelloSwifttyJSON/Info.plist;
@@ -487,6 +568,7 @@
 				2078AF721C65C4D800E512EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2078AF731C65C4D800E512EF /* Build configuration list for PBXNativeTarget "HelloSwifttyJSONTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +577,7 @@
 				2078AF751C65C4D800E512EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2078AF761C65C4D800E512EF /* Build configuration list for PBXNativeTarget "HelloSwifttyJSONUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +586,7 @@
 				2078AF781C65C4D800E512EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
